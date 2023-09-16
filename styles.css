@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
+}
+
+.construction-container {
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.construction-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.contact-form {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 90%; /* Maak de container 90% van de scherm breedte op kleine schermen */
+    max-width: 400px; /* Voorkom dat het formulier te breed wordt op grotere schermen */
+    text-align: center; /* Center align tekst in formulier */
+    margin: 0 auto; /* Centreer het formulier horizontaal */
+}
+
+.contact-form h2 {
+    margin-top: 0;
+}
+
+.contact-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.contact-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3;
+}
